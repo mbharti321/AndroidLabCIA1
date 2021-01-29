@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Button mBtnRFID = findViewById(R.id.btnRFID);
         Button mBtnTruckBus = findViewById(R.id.btnTruckBus);
         Button mBtnVipPass = findViewById(R.id.btnVipPass);
+        Button mBtnReset = findViewById(R.id.btnReset);
 
         mTxtVehiclesCount = findViewById(R.id.txtVehiclesCount);
         mTxtAmountCollected = findViewById(R.id.txtAmountCollected);
@@ -74,6 +75,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 vehiclesCount++;
                 amountCollected += 0;
+                display();
+            }
+        });
+
+
+        mBtnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                vehiclesCount = 0;
+                amountCollected = 0;
                 display();
             }
         });
