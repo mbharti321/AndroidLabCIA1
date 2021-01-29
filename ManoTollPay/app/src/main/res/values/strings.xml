@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ManoTollPay</string>
+    <string name="vip_pass">VIP/ Pass</string>
+    <string name="_2_wheeler">2 Wheeler</string>
+    <string name="rfid">RFID</string>
+    <string name="truck_bus">Truck/ Bus</string>
+    <string name="_4_wheeler">4 Wheeler</string>
+    <string name="amount_collected">Amount Collected</string>
+    <string name="no_of_vechiles">No. Of Vechiles</string>
+    <string name="_0">0</string>
+</resources>
